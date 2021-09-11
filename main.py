@@ -3,6 +3,7 @@ import pymongo
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
+# ------ Enter the password here 👇 -------
 pw = ""
 
 
