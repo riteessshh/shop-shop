@@ -3,7 +3,7 @@ import pymongo
 from bson.objectid import ObjectId
 
 app = Flask(__name__)
-pw = "uLQZ5t42ZZV3vSpL"
+pw = ""
 
 
 def convertToBinaryData(filename):
