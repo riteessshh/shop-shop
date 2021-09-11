@@ -1,0 +1,160 @@
+.container
+  margin-top: 40px
+  header
+    a
+      span
+        color: #5D7F1B
+        font-size: 36px
+    .nav-pills
+      .active
+        background-color: #5D7F1B
+    ul
+      li
+        .nav-link
+          color: #5D7F1B
+
+.hero
+  text-align: center
+  h1
+    font-size: 5rem
+    color: #BBAC40
+    margin: 15px auto
+.carousel
+  margin: 10px auto 50px
+.carousel-item
+  img
+    width: 100%
+section
+  margin: 50px auto
+  .heading
+    margin: 50px auto
+    text-align: center
+    h1
+      color: #771A0E
+
+.items-list
+  padding: 0 20px
+  position: relative
+  display: grid
+  // grid-gap: 10px
+  grid-template-columns: repeat(auto-fit, 280px)
+  justify-content: flex-start
+  align-items: center
+  grid-column-gap: 40px
+  grid-row-gap: 30px
+  .item
+    width: 280px
+    margin-bottom: 40px
+    a
+      text-decoration: none
+    .item-image
+      height: 230px
+      padding-bottom: 15px
+      img
+        width: 100%
+        height: 100%
+    .item-info
+      a
+        text-decoration: none
+        color: inherit
+      h1
+        font-size: 36px
+      p
+        margin-bottom: 5px
+      .rating
+        // font-size: 24px
+      .price
+        font-size: 36px
+      .desc
+        // font-size: 20px
+        margin-bottom: 15px
+      .button
+        width: 100%
+        border-radius: 5px
+        height: 50px
+        border: 0
+        color: white
+        background-color: #BBAC40
+        font-size: 28px
+        display: grid
+        justify-content: center
+        align-content: center
+
+footer
+  .col
+    a
+      h5
+        font-size: 36px
+        color: #5D7F1B
+    ul
+      li
+        .nav-link
+          color: inherit
+        .nav-link:hover
+          color: #5D7F1B
+
+// ----------- product page -----------
+.card
+  position: relative
+  display: flex
+  flex-direction: row
+  justify-content: space-between
+  padding: 50px
+  margin-bottom: 20px
+  .image
+    width: 588px
+    height: 500px
+    img
+      height: 100%
+      width: 100%
+  .info
+    position: relative
+    width: 45%
+    h1
+      font-size: 48px
+    .rating
+      font-size: 24px
+    .price
+      font-size: 40px
+    .desc
+      font-size: 18px
+    .available
+      font-size: 24px
+    .yes
+      color: green
+    .no
+      color: red
+    .button
+      width: 400px
+      height: 60px
+      // font-size: 24px
+      border: 0
+      color: white
+      background-color: #BBAC40
+      font-size: 34px
+      display: grid
+      justify-content: center
+      align-content: center
+      margin-top: 20px
+      cursor: pointer
+    .disable
+      filter: brightness(0.9)
+      cursor: not-allowed
+
+.extra-info
+  margin: 50px auto
+  .description
+    padding: 20px
+.related
+  margin: 50px auto
+  h1
+    font-size: 48px
+    margin: 30px auto
+
+
+@media (max-width:550px)
+  section
+    margin: 20px auto
+    text-align: center
+  .items-list
+    justify-content: center

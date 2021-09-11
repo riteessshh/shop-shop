@@ -1,0 +1,17 @@
+f_source = open("./static/images/item.png", "rb")
+print(type(f_source))
+data = io.open("./static/images/item.png", "rb")
+print(data)
+
+f_dest = open("dest.png", "wb")
+
+char_count = 0
+
+for line in f_source:
+    char_count += len(line)
+    f_dest.write(line)
+
+print(char_count, "characters copied successfully")
+
+f_source.close()
+f_dest.close()

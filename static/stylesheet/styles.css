@@ -1,0 +1,193 @@
+.container {
+  margin-top: 40px;
+}
+.container header a span {
+  color: #5D7F1B;
+  font-size: 36px;
+}
+.container header .nav-pills .active {
+  background-color: #5D7F1B;
+}
+.container header ul li .nav-link {
+  color: #5D7F1B;
+}
+
+.hero {
+  text-align: center;
+}
+.hero h1 {
+  font-size: 5rem;
+  color: #BBAC40;
+  margin: 15px auto;
+}
+
+.carousel {
+  margin: 10px auto 50px;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+section {
+  margin: 50px auto;
+}
+section .heading {
+  margin: 50px auto;
+  text-align: center;
+}
+section .heading h1 {
+  color: #771A0E;
+}
+
+.items-list {
+  padding: 0 20px;
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 280px);
+  justify-content: flex-start;
+  align-items: center;
+  grid-column-gap: 40px;
+  grid-row-gap: 30px;
+}
+.items-list .item {
+  width: 280px;
+  margin-bottom: 40px;
+}
+.items-list .item a {
+  text-decoration: none;
+}
+.items-list .item .item-image {
+  height: 230px;
+  padding-bottom: 15px;
+}
+.items-list .item .item-image img {
+  width: 100%;
+  height: 100%;
+}
+.items-list .item .item-info a {
+  text-decoration: none;
+  color: inherit;
+}
+.items-list .item .item-info h1 {
+  font-size: 36px;
+}
+.items-list .item .item-info p {
+  margin-bottom: 5px;
+}
+.items-list .item .item-info .price {
+  font-size: 36px;
+}
+.items-list .item .item-info .desc {
+  margin-bottom: 15px;
+}
+.items-list .item .item-info .button {
+  width: 100%;
+  border-radius: 5px;
+  height: 50px;
+  border: 0;
+  color: white;
+  background-color: #BBAC40;
+  font-size: 28px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+footer .col a h5 {
+  font-size: 36px;
+  color: #5D7F1B;
+}
+footer .col ul li .nav-link {
+  color: inherit;
+}
+footer .col ul li .nav-link:hover {
+  color: #5D7F1B;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  margin-bottom: 20px;
+}
+.card .image {
+  width: 588px;
+  height: 500px;
+}
+.card .image img {
+  height: 100%;
+  width: 100%;
+}
+.card .info {
+  position: relative;
+  width: 45%;
+}
+.card .info h1 {
+  font-size: 48px;
+}
+.card .info .rating {
+  font-size: 24px;
+}
+.card .info .price {
+  font-size: 40px;
+}
+.card .info .desc {
+  font-size: 18px;
+}
+.card .info .available {
+  font-size: 24px;
+}
+.card .info .yes {
+  color: green;
+}
+.card .info .no {
+  color: red;
+}
+.card .info .button {
+  width: 400px;
+  height: 60px;
+  border: 0;
+  color: white;
+  background-color: #BBAC40;
+  font-size: 34px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.card .info .disable {
+  filter: brightness(0.9);
+  cursor: not-allowed;
+}
+
+.extra-info {
+  margin: 50px auto;
+}
+.extra-info .description {
+  padding: 20px;
+}
+
+.related {
+  margin: 50px auto;
+}
+.related h1 {
+  font-size: 48px;
+  margin: 30px auto;
+}
+
+@media (max-width: 550px) {
+  section {
+    margin: 20px auto;
+    text-align: center;
+  }
+
+  .items-list {
+    justify-content: center;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */
